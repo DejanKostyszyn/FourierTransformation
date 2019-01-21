@@ -1,5 +1,5 @@
 # FourierTransformation
-A program to plot fourier transformations in python3 by Dejan Kostyszyn.
+A program to plot [fourier transformations](https://doi.org/10.1016/B978-044450871-3/50107-8) in python3 by Dejan Kostyszyn.
 ## Requirements
 To run the program, the following requirements are necessary to be installed:
 [Python3](https://www.python.org/Python3), [NumPy](http://www.numpy.org/), [Matplotlib](https://matplotlib.org/) and [Jupyter Notebook](https://jupyter.org/) 
@@ -9,6 +9,13 @@ To run the program, the following requirements are necessary to be installed:
 1. On the top menu click 'Cell -> Run All'
 ## Alter the program
 If you want to calculate another function, simply alter line 13. The functions either have to be [NumPy](http://www.numpy.org/) functions, or you must include the according libraries. E.g. the [math](https://docs.python.org/3/library/math.html) module.
+
+In case you want to alter f(x), make sure that f(x) fits Dirichlets conditions:
+
+* f(x) = f(x + 2pi)
+* f(x) is in (-pi, pi) in finitely many intervals static and monotone
+* If f is not static in x_0, then f(x_0) = (f(x_0 - 0) + f(x_0 + 0))/2
+
 ### Alter f(x): Example 1
 Change
 ```return x```
