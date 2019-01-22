@@ -30,7 +30,7 @@ else:
         return x
 ```
 ### Alter n
-If you want to alter the depth of the approximation, you can simply alter ```n``` in line 9. It is required, that n is a list object, i.e. you can **not** simply write ```n = 100```. Instead you have to write ```n = [100]```, if you want to use only one value.
+If you want to alter the depth of the approximation, you can simply alter ```n``` in line 9. It is required that n is a numpy array, i.e. you can **not** simply write ```n = 100```. Instead you have to write ```n = np.array([v])```, if you want to use only one value ```v``` of datatype ```int16```.
 
 
-If you find any mistakes, please feel free to write me.
+If you find any mistakes, please feel free to contact me.
