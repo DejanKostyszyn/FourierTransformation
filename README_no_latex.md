@@ -12,9 +12,9 @@ If you want to calculate another function, simply alter line 13. The functions e
 
 In case you want to alter f(x), make sure that f(x) fits Dirichlets conditions:
 
-* ![](https://tex.s2cms.ru/svg/%24f%28x%29%20%3D%20f%28x%20%2B%202pi%29%24)
-* ![](https://tex.s2cms.ru/svg/%24f%28x%29%24) is in ![](https://tex.s2cms.ru/svg/%24%28-pi%2C%20pi%29%24) in finitely many intervals static and monotone
-* If f is not static in ![](https://tex.s2cms.ru/svg/%24x_0%24), then ![](https://tex.s2cms.ru/svg/%24f%28x_0%29%20%3D%20%28f%28x_0%20-%200%29%20%2B%20f%28x_0%20%2B%200%29%29/2%24)
+* $f(x) = f(x + 2pi)$
+* $f(x)$ is in $(-pi, pi)$ in finitely many intervals static and monotone
+* If f is not static in $x_0$, then $f(x_0) = (f(x_0 - 0) + f(x_0 + 0))/2$
 
 ### Alter f(x): Example 1
 Change
